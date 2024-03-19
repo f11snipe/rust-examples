@@ -1,3 +1,6 @@
+// Linux only?
+use procfs;
+
 fn main() {
     let me = procfs::process::Process::myself().unwrap();
     let me_stat = me.stat().unwrap();
