@@ -1,0 +1,9 @@
+fs:
+  watch:
+    - /tmp/watchme
+  blacklist:
+    - file1
+    - badfileagain
+ps:
+  blacklist:
+    - malwareps
